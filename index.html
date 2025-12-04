@@ -349,7 +349,7 @@
         /* Stile speciale per il box poltrona */
         .poltrona-box {
             background: linear-gradient(135deg, #c41e3a 0%, #8b0000 100%);
-            padding: 20px;
+            padding: 15px;
             border-radius: 12px;
             border: 3px solid #ffd700;
             box-shadow: 0 5px 20px rgba(196, 30, 58, 0.4);
@@ -362,7 +362,7 @@
             position: absolute;
             top: 10px;
             left: 10px;
-            font-size: 2em;
+            font-size: 1.5em;
             opacity: 0.3;
         }
 
@@ -371,13 +371,13 @@
             position: absolute;
             bottom: 10px;
             right: 10px;
-            font-size: 2em;
+            font-size: 1.5em;
             opacity: 0.3;
         }
 
         .poltrona-box label {
             color: #fff !important;
-            font-size: 1.3em !important;
+            font-size: 1.2em !important;
             cursor: pointer;
             display: flex;
             align-items: center;
@@ -385,10 +385,32 @@
         }
 
         .poltrona-box input[type="checkbox"] {
-            width: 25px !important;
-            height: 25px !important;
+            width: 30px !important;
+            height: 30px !important;
             cursor: pointer;
             margin-right: 15px !important;
+            background-color: #f0f0f0 !important;
+            border: 2px solid #2d5a3d !important;
+            border-radius: 4px !important;
+            appearance: none;
+            -webkit-appearance: none;
+            position: relative;
+            flex-shrink: 0;
+        }
+
+        .poltrona-box input[type="checkbox"]:checked {
+            background-color: #e8e8e8 !important;
+        }
+
+        .poltrona-box input[type="checkbox"]:checked::after {
+            content: '✓';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            color: #2d5a3d;
+            font-weight: bold;
         }
 
         /* Fuochi d'artificio */
@@ -798,8 +820,8 @@
 
         // Funzione per creare fuochi d'artificio
         function createFireworks(x, y) {
-            const colors = ['#ffd700', '#ff0000', '#00ff00', '#ffff00', '#ff00ff', '#00ffff'];
-            const numParticles = 30;
+            const colors = ['#ffd700', '#ff0000', '#00ff00', '#ffff00', '#ff00ff', '#00ffff', '#ffffff'];
+            const numParticles = 50;
             
             for (let i = 0; i < numParticles; i++) {
                 const firework = document.createElement('div');
@@ -809,17 +831,17 @@
                 firework.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
                 
                 const angle = (Math.PI * 2 * i) / numParticles;
-                const velocity = 50 + Math.random() * 50;
+                const velocity = 60 + Math.random() * 70;
                 const xVel = Math.cos(angle) * velocity;
                 const yVel = Math.sin(angle) * velocity;
                 
                 firework.style.setProperty('--x', xVel + 'px');
                 firework.style.setProperty('--y', yVel + 'px');
-                firework.style.animation = 'explode 1s ease-out forwards';
+                firework.style.animation = 'explode 1.2s ease-out forwards';
                 
                 document.body.appendChild(firework);
                 
-                setTimeout(() => firework.remove(), 1000);
+                setTimeout(() => firework.remove(), 1200);
             }
         }
 
@@ -831,10 +853,12 @@
                 const x = rect.left + rect.width / 2;
                 const y = rect.top + rect.height / 2;
                 
-                // Crea 3 esplosioni di fuochi d'artificio
+                // Crea 5 esplosioni di fuochi d'artificio
                 createFireworks(x, y);
-                setTimeout(() => createFireworks(x - 50, y - 30), 200);
-                setTimeout(() => createFireworks(x + 50, y - 30), 400);
+                setTimeout(() => createFireworks(x - 60, y - 40), 150);
+                setTimeout(() => createFireworks(x + 60, y - 40), 300);
+                setTimeout(() => createFireworks(x - 30, y + 40), 450);
+                setTimeout(() => createFireworks(x + 30, y + 40), 600);
             }
         });
 
