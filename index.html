@@ -19,13 +19,13 @@
             position: relative;
         }
 
-        /* Luci natalizie animate */
+        /* Luci natalizie animate - su tutti i bordi */
         .lights-container {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
-            height: 60px;
+            height: 100%;
             z-index: 10;
             pointer-events: none;
         }
@@ -568,7 +568,6 @@
             <h1>🎄 30 Anni 🎄</h1>
             <div class="subtitle">I Gemelli Boni</div>
             <div class="date">25 Dicembre 2025</div>
-            <div style="margin-top: 20px; font-size: 1.1em; color: #ffd700; font-style: italic; position: relative; z-index: 1;">Fancy details demanded by Arianna Crasti</div>
         </header>
 
         <div class="info-card">
@@ -591,7 +590,7 @@
             <h3>✨ Dress Code ✨</h3>
             <p class="emoji">🎅 🦌 🎄 ⛄ 🔔</p>
             <p><strong>Obbligatorio un accessorio natalizio!</strong></p>
-            <p>Cappelli di Babbo Natale, maglioni natalizi, renne luminose, campanellini... liberate la fantasia! Più è natalizio, meglio è! 🎁</p>
+            <p>Cappelli di Babbo Natale, maglioni natalizi, renne luminose, campanellini... tu pensi all'accessorio, noi a tutto il resto! 🍕🍷🎁</p>
         </div>
 
         <div class="rsvp-form">
@@ -608,20 +607,19 @@
                         <option value="">Seleziona...</option>
                         <option value="1">1 persona</option>
                         <option value="2">2 persone</option>
-                        <option value="3">3 persone</option>
-                        <option value="4">4 persone</option>
-                        <option value="5+">5+ persone</option>
                     </select>
                 </div>
 
                 <div class="form-group">
-                    <label for="accessorio">Che accessorio natalizio indosserai? 🎄</label>
-                    <input type="text" id="accessorio" placeholder="es. Cappello di Babbo Natale">
+                    <label for="poltrona">
+                        <input type="checkbox" id="poltrona" style="width: auto; display: inline; margin-right: 10px;">
+                        Guarderò una poltrona per due la vigilia
+                    </label>
                 </div>
 
                 <div class="form-group">
                     <label for="messaggio">Messaggio per i festeggiati (facoltativo)</label>
-                    <textarea id="messaggio" rows="4" placeholder="Auguri e buone feste! 🎅"></textarea>
+                    <textarea id="messaggio" rows="4" placeholder="Auguri a te e famiglia 🎊"></textarea>
                 </div>
 
                 <button type="submit">🎁 Confermo la Partecipazione!</button>
@@ -638,18 +636,53 @@
     </div>
 
     <script>
-        // Crea luci natalizie colorate
+        // Crea luci natalizie colorate su tutti i bordi
         function createLights() {
             const container = document.getElementById('lightsContainer');
             const colors = ['#ff0000', '#00ff00', '#ffff00', '#0000ff', '#ff00ff', '#00ffff'];
-            const numberOfLights = 20;
+            const numberOfLightsPerSide = 15;
             
-            for (let i = 0; i < numberOfLights; i++) {
+            // Bordo superiore
+            for (let i = 0; i < numberOfLightsPerSide; i++) {
                 const light = document.createElement('div');
                 light.classList.add('light');
-                light.style.left = (i * (100 / numberOfLights)) + '%';
+                light.style.left = (i * (100 / numberOfLightsPerSide)) + '%';
+                light.style.top = '0px';
                 light.style.backgroundColor = colors[i % colors.length];
                 light.style.animationDelay = (i * 0.1) + 's';
+                container.appendChild(light);
+            }
+            
+            // Bordo inferiore
+            for (let i = 0; i < numberOfLightsPerSide; i++) {
+                const light = document.createElement('div');
+                light.classList.add('light');
+                light.style.left = (i * (100 / numberOfLightsPerSide)) + '%';
+                light.style.bottom = '0px';
+                light.style.backgroundColor = colors[i % colors.length];
+                light.style.animationDelay = (i * 0.1) + 's';
+                container.appendChild(light);
+            }
+            
+            // Bordo sinistro
+            for (let i = 0; i < numberOfLightsPerSide; i++) {
+                const light = document.createElement('div');
+                light.classList.add('light');
+                light.style.left = '0px';
+                light.style.top = (i * (100 / numberOfLightsPerSide)) + '%';
+                light.style.backgroundColor = colors[i % colors.length];
+                light.style.animationDelay = (i * 0.1 + 0.5) + 's';
+                container.appendChild(light);
+            }
+            
+            // Bordo destro
+            for (let i = 0; i < numberOfLightsPerSide; i++) {
+                const light = document.createElement('div');
+                light.classList.add('light');
+                light.style.right = '0px';
+                light.style.top = (i * (100 / numberOfLightsPerSide)) + '%';
+                light.style.backgroundColor = colors[i % colors.length];
+                light.style.animationDelay = (i * 0.1 + 0.5) + 's';
                 container.appendChild(light);
             }
         }
@@ -700,13 +733,13 @@
             
             const nome = document.getElementById('nome').value;
             const ospiti = document.getElementById('ospiti').value;
-            const accessorio = document.getElementById('accessorio').value;
+            const poltrona = document.getElementById('poltrona').checked;
             const messaggio = document.getElementById('messaggio').value;
             
             const response = {
                 nome: nome,
                 ospiti: ospiti,
-                accessorio: accessorio,
+                poltrona: poltrona,
                 messaggio: messaggio,
                 data: new Date().toLocaleString('it-IT')
             };
