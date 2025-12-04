@@ -346,6 +346,72 @@
         .form-group:nth-child(3) { animation-delay: 0.4s; }
         .form-group:nth-child(4) { animation-delay: 0.5s; }
 
+        /* Stile speciale per il box poltrona */
+        .poltrona-box {
+            background: linear-gradient(135deg, #c41e3a 0%, #8b0000 100%);
+            padding: 20px;
+            border-radius: 12px;
+            border: 3px solid #ffd700;
+            box-shadow: 0 5px 20px rgba(196, 30, 58, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .poltrona-box::before {
+            content: '🎬';
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 2em;
+            opacity: 0.3;
+        }
+
+        .poltrona-box::after {
+            content: '🍿';
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 2em;
+            opacity: 0.3;
+        }
+
+        .poltrona-box label {
+            color: #fff !important;
+            font-size: 1.3em !important;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            margin: 0;
+        }
+
+        .poltrona-box input[type="checkbox"] {
+            width: 25px !important;
+            height: 25px !important;
+            cursor: pointer;
+            margin-right: 15px !important;
+        }
+
+        /* Fuochi d'artificio */
+        .firework {
+            position: fixed;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 1000;
+        }
+
+        @keyframes explode {
+            0% {
+                opacity: 1;
+                transform: translate(0, 0) scale(1);
+            }
+            100% {
+                opacity: 0;
+                transform: translate(var(--x), var(--y)) scale(0);
+            }
+        }
+
         label {
             display: block;
             margin-bottom: 8px;
@@ -362,6 +428,13 @@
             font-size: 1em;
             font-family: inherit;
             transition: all 0.3s ease;
+        }
+
+        textarea::placeholder {
+            font-size: 1.2em;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #c41e3a;
         }
 
         input:focus, textarea:focus, select:focus {
@@ -610,16 +683,16 @@
                     </select>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group poltrona-box">
                     <label for="poltrona">
-                        <input type="checkbox" id="poltrona" style="width: auto; display: inline; margin-right: 10px;">
-                        Guarderò una poltrona per due la vigilia
+                        <input type="checkbox" id="poltrona" style="width: auto; display: inline;">
+                        🎄 Guarderò una poltrona per due la vigilia 🎅
                     </label>
                 </div>
 
                 <div class="form-group">
                     <label for="messaggio">Messaggio per i festeggiati (facoltativo)</label>
-                    <textarea id="messaggio" rows="4" placeholder="Auguri a te e famiglia 🎊"></textarea>
+                    <textarea id="messaggio" rows="4" placeholder="AUGURI A TE E FAMIGLIA 🎊"></textarea>
                 </div>
 
                 <button type="submit">🎁 Confermo la Partecipazione!</button>
@@ -723,8 +796,47 @@
             setTimeout(createStar, i * 200);
         }
 
-        // IMPORTANTE: Sostituisci questo URL con l'URL del tuo Google Apps Script
-        const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycby4QIfKzKo6zyphlmZnLnv1Bq4OyMO-HOqvB6UT5fEQbiVhxS2kQS_DMZTIFcyIONQOdg/exec';
+        // Funzione per creare fuochi d'artificio
+        function createFireworks(x, y) {
+            const colors = ['#ffd700', '#ff0000', '#00ff00', '#ffff00', '#ff00ff', '#00ffff'];
+            const numParticles = 30;
+            
+            for (let i = 0; i < numParticles; i++) {
+                const firework = document.createElement('div');
+                firework.classList.add('firework');
+                firework.style.left = x + 'px';
+                firework.style.top = y + 'px';
+                firework.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                
+                const angle = (Math.PI * 2 * i) / numParticles;
+                const velocity = 50 + Math.random() * 50;
+                const xVel = Math.cos(angle) * velocity;
+                const yVel = Math.sin(angle) * velocity;
+                
+                firework.style.setProperty('--x', xVel + 'px');
+                firework.style.setProperty('--y', yVel + 'px');
+                firework.style.animation = 'explode 1s ease-out forwards';
+                
+                document.body.appendChild(firework);
+                
+                setTimeout(() => firework.remove(), 1000);
+            }
+        }
+
+        // Gestione checkbox poltrona con fuochi d'artificio
+        const poltronaCheckbox = document.getElementById('poltrona');
+        poltronaCheckbox.addEventListener('change', function(e) {
+            if (this.checked) {
+                const rect = this.getBoundingClientRect();
+                const x = rect.left + rect.width / 2;
+                const y = rect.top + rect.height / 2;
+                
+                // Crea 3 esplosioni di fuochi d'artificio
+                createFireworks(x, y);
+                setTimeout(() => createFireworks(x - 50, y - 30), 200);
+                setTimeout(() => createFireworks(x + 50, y - 30), 400);
+            }
+        });
 
         // Gestione form RSVP
         const form = document.getElementById('rsvpForm');
@@ -736,7 +848,7 @@
             
             // Disabilita il pulsante durante l'invio
             submitButton.disabled = true;
-            submitButton.textContent = '⏳ Invio in corso...';
+            submitButton.textContent = '⏳ Salvataggio in corso...';
             
             const nome = document.getElementById('nome').value;
             const ospiti = document.getElementById('ospiti').value;
@@ -752,17 +864,14 @@
             };
             
             try {
-                // Invia i dati a Google Sheets
-                const result = await fetch(GOOGLE_SCRIPT_URL, {
-                    method: 'POST',
-                    mode: 'no-cors',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify(response)
-                });
+                // Genera un ID unico per ogni risposta
+                const timestamp = Date.now();
+                const responseId = `rsvp:${timestamp}`;
                 
-                console.log('Risposta registrata:', response);
+                // Salva la risposta nel persistent storage
+                await window.storage.set(responseId, JSON.stringify(response), true);
+                
+                console.log('Risposta salvata:', response);
                 
                 // Mostra messaggio di successo
                 form.style.display = 'none';
@@ -778,7 +887,7 @@
                 }, 5000);
                 
             } catch (error) {
-                console.error('Errore durante l\'invio:', error);
+                console.error('Errore durante il salvataggio:', error);
                 alert('Si è verificato un errore. Riprova per favore!');
                 submitButton.disabled = false;
                 submitButton.textContent = '🎁 Confermo la Partecipazione!';
