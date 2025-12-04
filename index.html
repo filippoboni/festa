@@ -723,13 +723,20 @@
             setTimeout(createStar, i * 200);
         }
 
+        // IMPORTANTE: Sostituisci questo URL con l'URL del tuo Google Apps Script
+        const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycby4QIfKzKo6zyphlmZnLnv1Bq4OyMO-HOqvB6UT5fEQbiVhxS2kQS_DMZTIFcyIONQOdg/exec';
+
         // Gestione form RSVP
         const form = document.getElementById('rsvpForm');
         const successMessage = document.getElementById('successMessage');
-        const responses = [];
+        const submitButton = form.querySelector('button[type="submit"]');
 
-        form.addEventListener('submit', function(e) {
+        form.addEventListener('submit', async function(e) {
             e.preventDefault();
+            
+            // Disabilita il pulsante durante l'invio
+            submitButton.disabled = true;
+            submitButton.textContent = '⏳ Invio in corso...';
             
             const nome = document.getElementById('nome').value;
             const ospiti = document.getElementById('ospiti').value;
@@ -744,18 +751,38 @@
                 data: new Date().toLocaleString('it-IT')
             };
             
-            responses.push(response);
-            console.log('Risposta registrata:', response);
-            console.log('Tutte le risposte:', responses);
-            
-            form.style.display = 'none';
-            successMessage.style.display = 'block';
-            
-            setTimeout(() => {
-                form.reset();
-                form.style.display = 'block';
-                successMessage.style.display = 'none';
-            }, 5000);
+            try {
+                // Invia i dati a Google Sheets
+                const result = await fetch(GOOGLE_SCRIPT_URL, {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(response)
+                });
+                
+                console.log('Risposta registrata:', response);
+                
+                // Mostra messaggio di successo
+                form.style.display = 'none';
+                successMessage.style.display = 'block';
+                
+                // Reset dopo 5 secondi
+                setTimeout(() => {
+                    form.reset();
+                    form.style.display = 'block';
+                    successMessage.style.display = 'none';
+                    submitButton.disabled = false;
+                    submitButton.textContent = '🎁 Confermo la Partecipazione!';
+                }, 5000);
+                
+            } catch (error) {
+                console.error('Errore durante l\'invio:', error);
+                alert('Si è verificato un errore. Riprova per favore!');
+                submitButton.disabled = false;
+                submitButton.textContent = '🎁 Confermo la Partecipazione!';
+            }
         });
 
         // Effetto parallax leggero al movimento del mouse
