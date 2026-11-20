@@ -1,0 +1,1270 @@
+{
+ "items": [
+  {
+   "slug": "clay-cl01",
+   "title": "Clay CL01 Calm",
+   "url": "/products/clay-cl01",
+   "indoor": true,
+   "outdoor": false,
+   "atelier": false,
+   "resource": false,
+   "minimal_image": {
+    "origin_id": "c88af0b3-539c-4908-bf38-a7b93ced2ba2",
+    "cdn": "thron",
+    "alt": "CLAY CL01 CALM",
+    "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/c88af0b3-539c-4908-bf38-a7b93ced2ba2/9pkhty/std/800x533/c88af0b3-539c-4908-bf38-a7b93ced2ba2?scalemode=centered&format=auto&quality=auto-medium"
+   },
+   "ambient_image": {
+    "origin_id": "ef4b8931-0d5b-414e-acfb-55be8d88619e",
+    "cdn": "thron",
+    "alt": "CLAY CL01 120x278 Living",
+    "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/ef4b8931-0d5b-414e-acfb-55be8d88619e/9pkhty/std/800x533/ef4b8931-0d5b-414e-acfb-55be8d88619e?scalemode=centered&format=auto&quality=auto-medium"
+   }
+  },
+  {
+   "slug": "clay-cl02",
+   "title": "Clay CL02 Delight",
+   "url": "/products/clay-cl02",
+   "indoor": true,
+   "outdoor": false,
+   "atelier": false,
+   "resource": false,
+   "minimal_image": {
+    "origin_id": "ee3dbdd0-fdb9-4042-97e1-003c187da234",
+    "cdn": "thron",
+    "alt": "CLAY CL02 DELIGHT",
+    "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/ee3dbdd0-fdb9-4042-97e1-003c187da234/9pkhty/std/800x533/ee3dbdd0-fdb9-4042-97e1-003c187da234?scalemode=centered&format=auto&quality=auto-medium"
+   },
+   "ambient_image": {
+    "origin_id": "cad9e6da-67fe-4885-a717-33ffe16b72b2",
+    "cdn": "thron",
+    "alt": "CLAY CL02 120x278 Still life",
+    "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/cad9e6da-67fe-4885-a717-33ffe16b72b2/9pkhty/std/800x533/cad9e6da-67fe-4885-a717-33ffe16b72b2?scalemode=centered&format=auto&quality=auto-medium"
+   }
+  },
+  {
+   "slug": "clay-cl03",
+   "title": "Clay CL03 Awake",
+   "url": "/products/clay-cl03",
+   "indoor": true,
+   "outdoor": false,
+   "atelier": false,
+   "resource": false,
+   "minimal_image": {
+    "origin_id": "b6127264-7572-4779-8e80-ed8ca729f026",
+    "cdn": "thron",
+    "alt": "CLAY CL03 AWAKE",
+    "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/b6127264-7572-4779-8e80-ed8ca729f026/9pkhty/std/800x533/b6127264-7572-4779-8e80-ed8ca729f026?scalemode=centered&format=auto&quality=auto-medium"
+   },
+   "ambient_image": {
+    "origin_id": "348a8659-b060-4c34-961c-72fc03674859",
+    "cdn": "thron",
+    "alt": "CLAY CL03 120x120 CL02 CL08 Ristorante P01",
+    "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/348a8659-b060-4c34-961c-72fc03674859/9pkhty/std/800x533/348a8659-b060-4c34-961c-72fc03674859?scalemode=centered&format=auto&quality=auto-medium"
+   }
+  },
+  {
+   "slug": "clay-cl04",
+   "title": "Clay CL04 Fancy",
+   "url": "/products/clay-cl04",
+   "indoor": true,
+   "outdoor": false,
+   "atelier": false,
+   "resource": false,
+   "minimal_image": {
+    "origin_id": "d6561f03-bc15-4fe7-aef3-f95089a317e7",
+    "cdn": "thron",
+    "alt": "CLAY CL04 FANCY",
+    "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/d6561f03-bc15-4fe7-aef3-f95089a317e7/9pkhty/std/800x533/d6561f03-bc15-4fe7-aef3-f95089a317e7?scalemode=centered&format=auto&quality=auto-medium"
+   },
+   "ambient_image": {
+    "origin_id": "c5762b99-6f46-4a52-85eb-64a2e25ec2d4",
+    "cdn": "thron",
+    "alt": "CLAY CL04 120x278 Still life",
+    "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/c5762b99-6f46-4a52-85eb-64a2e25ec2d4/9pkhty/std/800x533/c5762b99-6f46-4a52-85eb-64a2e25ec2d4?scalemode=centered&format=auto&quality=auto-medium"
+   }
+  },
+  {
+   "slug": "clay-cl05",
+   "title": "Clay CL05 Verve",
+   "url": "/products/clay-cl05",
+   "indoor": true,
+   "outdoor": false,
+   "atelier": false,
+   "resource": false,
+   "minimal_image": {
+    "origin_id": "51a0bb77-a061-4233-a21e-19c3d6ed612a",
+    "cdn": "thron",
+    "alt": "CLAY CL05 VERVE",
+    "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/51a0bb77-a061-4233-a21e-19c3d6ed612a/9pkhty/std/800x533/51a0bb77-a061-4233-a21e-19c3d6ed612a?scalemode=centered&format=auto&quality=auto-medium"
+   },
+   "ambient_image": {
+    "origin_id": "4b4c6d48-dff7-4ac6-8a56-f00bc421b4f8",
+    "cdn": "thron",
+    "alt": "CLAY CL05 120x278 Still life",
+    "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/4b4c6d48-dff7-4ac6-8a56-f00bc421b4f8/9pkhty/std/800x533/4b4c6d48-dff7-4ac6-8a56-f00bc421b4f8?scalemode=centered&format=auto&quality=auto-medium"
+   }
+  },
+  {
+   "slug": "clay-cl06",
+   "title": "Clay CL06 Shy",
+   "url": "/products/clay-cl06",
+   "indoor": true,
+   "outdoor": false,
+   "atelier": false,
+   "resource": false,
+   "minimal_image": {
+    "origin_id": "cd213ae7-2ca2-4a74-8616-7e75d94cabc5",
+    "cdn": "thron",
+    "alt": "CLAY CL06 SHY",
+    "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/cd213ae7-2ca2-4a74-8616-7e75d94cabc5/9pkhty/std/800x533/cd213ae7-2ca2-4a74-8616-7e75d94cabc5?scalemode=centered&format=auto&quality=auto-medium"
+   },
+   "ambient_image": {
+    "origin_id": "5c0b50d6-2969-42e1-bef0-a516f7cd5b0b",
+    "cdn": "thron",
+    "alt": "CLAY CL06 120x278 Still life",
+    "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/5c0b50d6-2969-42e1-bef0-a516f7cd5b0b/9pkhty/std/800x533/5c0b50d6-2969-42e1-bef0-a516f7cd5b0b?scalemode=centered&format=auto&quality=auto-medium"
+   }
+  },
+  {
+   "slug": "clay-cl07",
+   "title": "Clay CL07 Trust",
+   "url": "/products/clay-cl07",
+   "indoor": true,
+   "outdoor": false,
+   "atelier": false,
+   "resource": false,
+   "minimal_image": {
+    "origin_id": "fbe4bb60-c52f-4331-9f09-328f04d1d8e8",
+    "cdn": "thron",
+    "alt": "CLAY CL07 TRUST",
+    "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/fbe4bb60-c52f-4331-9f09-328f04d1d8e8/9pkhty/std/800x533/fbe4bb60-c52f-4331-9f09-328f04d1d8e8?scalemode=centered&format=auto&quality=auto-medium"
+   },
+   "ambient_image": {
+    "origin_id": "319d0fe0-cc99-458f-a72e-93cf8a51effc",
+    "cdn": "thron",
+    "alt": "CLAY CL07 120x278 Still life",
+    "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/319d0fe0-cc99-458f-a72e-93cf8a51effc/9pkhty/std/800x533/319d0fe0-cc99-458f-a72e-93cf8a51effc?scalemode=centered&format=auto&quality=auto-medium"
+   }
+  },
+  {
+   "slug": "clay-cl08",
+   "title": "Clay CL08 Karma",
+   "url": "/products/clay-cl08",
+   "indoor": true,
+   "outdoor": false,
+   "atelier": false,
+   "resource": false,
+   "minimal_image": {
+    "origin_id": "2f1608bf-59e7-4add-a906-140e3bb04ad4",
+    "cdn": "thron",
+    "alt": "CLAY CL08 KARMA",
+    "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/2f1608bf-59e7-4add-a906-140e3bb04ad4/9pkhty/std/800x533/2f1608bf-59e7-4add-a906-140e3bb04ad4?scalemode=centered&format=auto&quality=auto-medium"
+   },
+   "ambient_image": {
+    "origin_id": "1db879dd-7408-4bf3-904d-a11ac8d9ffac",
+    "cdn": "thron",
+    "alt": "CLAY CL03 CL08 120x278 Still life",
+    "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/1db879dd-7408-4bf3-904d-a11ac8d9ffac/9pkhty/std/800x533/1db879dd-7408-4bf3-904d-a11ac8d9ffac?scalemode=centered&format=auto&quality=auto-medium"
+   }
+  },
+  {
+   "slug": "clay-cl09",
+   "title": "Clay CL09 Glee",
+   "url": "/products/clay-cl09",
+   "indoor": true,
+   "outdoor": false,
+   "atelier": false,
+   "resource": false,
+   "minimal_image": {
+    "origin_id": "c6ca033c-fd7d-42b4-8279-371cead083a1",
+    "cdn": "thron",
+    "alt": "CLAY CL09 GLEE",
+    "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/c6ca033c-fd7d-42b4-8279-371cead083a1/9pkhty/std/800x533/c6ca033c-fd7d-42b4-8279-371cead083a1?scalemode=centered&format=auto&quality=auto-medium"
+   },
+   "ambient_image": {
+    "origin_id": "e0f0f75e-f688-40c8-b691-1f472d36117b",
+    "cdn": "thron",
+    "alt": "CLAY CL09 120x278 Still life",
+    "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/e0f0f75e-f688-40c8-b691-1f472d36117b/9pkhty/std/800x533/e0f0f75e-f688-40c8-b691-1f472d36117b?scalemode=centered&format=auto&quality=auto-medium"
+   }
+  },
+  {
+   "slug": "clay-cl10",
+   "title": "Clay CL10 Grace",
+   "url": "/products/clay-cl10",
+   "indoor": true,
+   "outdoor": false,
+   "atelier": false,
+   "resource": false,
+   "minimal_image": {
+    "origin_id": "5f6cab3e-c8bc-44d7-abd6-bc997401dc70",
+    "cdn": "thron",
+    "alt": "CLAY CL10 GRACE",
+    "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/5f6cab3e-c8bc-44d7-abd6-bc997401dc70/9pkhty/std/800x533/5f6cab3e-c8bc-44d7-abd6-bc997401dc70?scalemode=centered&format=auto&quality=auto-medium"
+   },
+   "ambient_image": {
+    "origin_id": "bd9135c4-fc94-4367-aacc-e4ac8e956e1f",
+    "cdn": "thron",
+    "alt": "CLAY CL10 40x80 JP03 Living",
+    "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/bd9135c4-fc94-4367-aacc-e4ac8e956e1f/9pkhty/std/800x533/bd9135c4-fc94-4367-aacc-e4ac8e956e1f?scalemode=centered&format=auto&quality=auto-medium"
+   }
+  }
+ ],
+ "details": [
+  {
+   "slug": "clay-cl01",
+   "title": "Clay CL01 Calm",
+   "collection": "Collezione Clay",
+   "indoor": true,
+   "outdoor": false,
+   "finishes": [
+    {
+     "name": "Spazzolato",
+     "formats": [
+      {
+       "cm": "120x120",
+       "in": "48x48",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 14400
+      },
+      {
+       "cm": "80x80",
+       "in": "31,5x31,5",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 6400
+      },
+      {
+       "cm": "40x80",
+       "in": "15,7x31,5",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 3200
+      },
+      {
+       "cm": "60x120",
+       "in": "24x48",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 7200
+      },
+      {
+       "cm": "30x60",
+       "in": "12x24",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 1800
+      },
+      {
+       "cm": "60x60",
+       "in": "24x24",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 3600
+      }
+     ]
+    }
+   ],
+   "specs": [
+    {
+     "label": "R9"
+    },
+    {
+     "label": "V2"
+    }
+   ],
+   "downloads": [
+    {
+     "title": "Richiedi informazioni",
+     "type": ""
+    },
+    {
+     "title": "Store locator",
+     "type": "",
+     "url": "https://mirage.it/store-locator"
+    },
+    {
+     "title": "Catalogo Clay",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/59bad278-cc11-433b-9114-7a72433d050e/9pkhty/fil/catalogo-clay-pdf.pdf"
+    },
+    {
+     "title": "Scheda tecnica",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/1d24de37-d27a-4c9d-a74e-48cfe12aadb9/9pkhty/fil/scheda-tecnica-clay-pdf.pdf"
+    },
+    {
+     "title": "Capitolato",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/d393c1cf-2a6c-42f8-a626-a70919fb39f0/9pkhty/fil/capitolato-clay-pdf.pdf"
+    },
+    {
+     "title": "Sistema di posa",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/625ca3cd-af7c-4348-beba-894832ac0dd5/9pkhty/fil/sistema-di-posa-clay-pdf.pdf"
+    }
+   ],
+   "images": {
+    "minimal": {
+     "origin_id": "c88af0b3-539c-4908-bf38-a7b93ced2ba2",
+     "cdn": "thron",
+     "alt": "CLAY CL01 CALM",
+     "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/c88af0b3-539c-4908-bf38-a7b93ced2ba2/9pkhty/std/800x533/c88af0b3-539c-4908-bf38-a7b93ced2ba2?scalemode=centered&format=auto&quality=auto-medium"
+    },
+    "ambient": {
+     "origin_id": "ef4b8931-0d5b-414e-acfb-55be8d88619e",
+     "cdn": "thron",
+     "alt": "CLAY CL01 120x278 Living",
+     "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/ef4b8931-0d5b-414e-acfb-55be8d88619e/9pkhty/std/800x533/ef4b8931-0d5b-414e-acfb-55be8d88619e?scalemode=centered&format=auto&quality=auto-medium"
+    }
+   }
+  },
+  {
+   "slug": "clay-cl02",
+   "title": "Clay CL02 Delight",
+   "collection": "Collezione Clay",
+   "indoor": true,
+   "outdoor": false,
+   "finishes": [
+    {
+     "name": "Spazzolato",
+     "formats": [
+      {
+       "cm": "120x120",
+       "in": "48x48",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 14400
+      },
+      {
+       "cm": "80x80",
+       "in": "31,5x31,5",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 6400
+      },
+      {
+       "cm": "40x80",
+       "in": "15,7x31,5",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 3200
+      },
+      {
+       "cm": "60x120",
+       "in": "24x48",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 7200
+      },
+      {
+       "cm": "30x60",
+       "in": "12x24",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 1800
+      },
+      {
+       "cm": "60x60",
+       "in": "24x24",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 3600
+      }
+     ]
+    }
+   ],
+   "specs": [
+    {
+     "label": "R9"
+    },
+    {
+     "label": "V2"
+    }
+   ],
+   "downloads": [
+    {
+     "title": "Richiedi informazioni",
+     "type": ""
+    },
+    {
+     "title": "Store locator",
+     "type": "",
+     "url": "https://mirage.it/store-locator"
+    },
+    {
+     "title": "Catalogo Clay",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/59bad278-cc11-433b-9114-7a72433d050e/9pkhty/fil/catalogo-clay-pdf.pdf"
+    },
+    {
+     "title": "Scheda tecnica",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/1d24de37-d27a-4c9d-a74e-48cfe12aadb9/9pkhty/fil/scheda-tecnica-clay-pdf.pdf"
+    },
+    {
+     "title": "Capitolato",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/d393c1cf-2a6c-42f8-a626-a70919fb39f0/9pkhty/fil/capitolato-clay-pdf.pdf"
+    },
+    {
+     "title": "Sistema di posa",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/625ca3cd-af7c-4348-beba-894832ac0dd5/9pkhty/fil/sistema-di-posa-clay-pdf.pdf"
+    }
+   ],
+   "images": {
+    "minimal": {
+     "origin_id": "ee3dbdd0-fdb9-4042-97e1-003c187da234",
+     "cdn": "thron",
+     "alt": "CLAY CL02 DELIGHT",
+     "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/ee3dbdd0-fdb9-4042-97e1-003c187da234/9pkhty/std/800x533/ee3dbdd0-fdb9-4042-97e1-003c187da234?scalemode=centered&format=auto&quality=auto-medium"
+    },
+    "ambient": {
+     "origin_id": "cad9e6da-67fe-4885-a717-33ffe16b72b2",
+     "cdn": "thron",
+     "alt": "CLAY CL02 120x278 Still life",
+     "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/cad9e6da-67fe-4885-a717-33ffe16b72b2/9pkhty/std/800x533/cad9e6da-67fe-4885-a717-33ffe16b72b2?scalemode=centered&format=auto&quality=auto-medium"
+    }
+   }
+  },
+  {
+   "slug": "clay-cl03",
+   "title": "Clay CL03 Awake",
+   "collection": "Collezione Clay",
+   "indoor": true,
+   "outdoor": false,
+   "finishes": [
+    {
+     "name": "Spazzolato",
+     "formats": [
+      {
+       "cm": "120x120",
+       "in": "48x48",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 14400
+      },
+      {
+       "cm": "80x80",
+       "in": "31,5x31,5",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 6400
+      },
+      {
+       "cm": "40x80",
+       "in": "15,7x31,5",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 3200
+      },
+      {
+       "cm": "60x120",
+       "in": "24x48",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 7200
+      },
+      {
+       "cm": "30x60",
+       "in": "12x24",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 1800
+      },
+      {
+       "cm": "60x60",
+       "in": "24x24",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 3600
+      }
+     ]
+    }
+   ],
+   "specs": [
+    {
+     "label": "R9"
+    },
+    {
+     "label": "V2"
+    }
+   ],
+   "downloads": [
+    {
+     "title": "Richiedi informazioni",
+     "type": ""
+    },
+    {
+     "title": "Store locator",
+     "type": "",
+     "url": "https://mirage.it/store-locator"
+    },
+    {
+     "title": "Catalogo Clay",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/59bad278-cc11-433b-9114-7a72433d050e/9pkhty/fil/catalogo-clay-pdf.pdf"
+    },
+    {
+     "title": "Scheda tecnica",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/1d24de37-d27a-4c9d-a74e-48cfe12aadb9/9pkhty/fil/scheda-tecnica-clay-pdf.pdf"
+    },
+    {
+     "title": "Capitolato",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/d393c1cf-2a6c-42f8-a626-a70919fb39f0/9pkhty/fil/capitolato-clay-pdf.pdf"
+    },
+    {
+     "title": "Sistema di posa",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/625ca3cd-af7c-4348-beba-894832ac0dd5/9pkhty/fil/sistema-di-posa-clay-pdf.pdf"
+    }
+   ],
+   "images": {
+    "minimal": {
+     "origin_id": "b6127264-7572-4779-8e80-ed8ca729f026",
+     "cdn": "thron",
+     "alt": "CLAY CL03 AWAKE",
+     "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/b6127264-7572-4779-8e80-ed8ca729f026/9pkhty/std/800x533/b6127264-7572-4779-8e80-ed8ca729f026?scalemode=centered&format=auto&quality=auto-medium"
+    },
+    "ambient": {
+     "origin_id": "348a8659-b060-4c34-961c-72fc03674859",
+     "cdn": "thron",
+     "alt": "CLAY CL03 120x120 CL02 CL08 Ristorante P01",
+     "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/348a8659-b060-4c34-961c-72fc03674859/9pkhty/std/800x533/348a8659-b060-4c34-961c-72fc03674859?scalemode=centered&format=auto&quality=auto-medium"
+    }
+   }
+  },
+  {
+   "slug": "clay-cl04",
+   "title": "Clay CL04 Fancy",
+   "collection": "Collezione Clay",
+   "indoor": true,
+   "outdoor": false,
+   "finishes": [
+    {
+     "name": "Spazzolato",
+     "formats": [
+      {
+       "cm": "120x120",
+       "in": "48x48",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 14400
+      },
+      {
+       "cm": "80x80",
+       "in": "31,5x31,5",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 6400
+      },
+      {
+       "cm": "40x80",
+       "in": "15,7x31,5",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 3200
+      },
+      {
+       "cm": "60x120",
+       "in": "24x48",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 7200
+      },
+      {
+       "cm": "30x60",
+       "in": "12x24",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 1800
+      },
+      {
+       "cm": "60x60",
+       "in": "24x24",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 3600
+      }
+     ]
+    }
+   ],
+   "specs": [
+    {
+     "label": "R9"
+    },
+    {
+     "label": "V2"
+    }
+   ],
+   "downloads": [
+    {
+     "title": "Richiedi informazioni",
+     "type": ""
+    },
+    {
+     "title": "Store locator",
+     "type": "",
+     "url": "https://mirage.it/store-locator"
+    },
+    {
+     "title": "Catalogo Clay",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/59bad278-cc11-433b-9114-7a72433d050e/9pkhty/fil/catalogo-clay-pdf.pdf"
+    },
+    {
+     "title": "Scheda tecnica",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/1d24de37-d27a-4c9d-a74e-48cfe12aadb9/9pkhty/fil/scheda-tecnica-clay-pdf.pdf"
+    },
+    {
+     "title": "Capitolato",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/d393c1cf-2a6c-42f8-a626-a70919fb39f0/9pkhty/fil/capitolato-clay-pdf.pdf"
+    },
+    {
+     "title": "Sistema di posa",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/625ca3cd-af7c-4348-beba-894832ac0dd5/9pkhty/fil/sistema-di-posa-clay-pdf.pdf"
+    }
+   ],
+   "images": {
+    "minimal": {
+     "origin_id": "d6561f03-bc15-4fe7-aef3-f95089a317e7",
+     "cdn": "thron",
+     "alt": "CLAY CL04 FANCY",
+     "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/d6561f03-bc15-4fe7-aef3-f95089a317e7/9pkhty/std/800x533/d6561f03-bc15-4fe7-aef3-f95089a317e7?scalemode=centered&format=auto&quality=auto-medium"
+    },
+    "ambient": {
+     "origin_id": "c5762b99-6f46-4a52-85eb-64a2e25ec2d4",
+     "cdn": "thron",
+     "alt": "CLAY CL04 120x278 Still life",
+     "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/c5762b99-6f46-4a52-85eb-64a2e25ec2d4/9pkhty/std/800x533/c5762b99-6f46-4a52-85eb-64a2e25ec2d4?scalemode=centered&format=auto&quality=auto-medium"
+    }
+   }
+  },
+  {
+   "slug": "clay-cl05",
+   "title": "Clay CL05 Verve",
+   "collection": "Collezione Clay",
+   "indoor": true,
+   "outdoor": false,
+   "finishes": [
+    {
+     "name": "Spazzolato",
+     "formats": [
+      {
+       "cm": "120x120",
+       "in": "48x48",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 14400
+      },
+      {
+       "cm": "80x80",
+       "in": "31,5x31,5",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 6400
+      },
+      {
+       "cm": "40x80",
+       "in": "15,7x31,5",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 3200
+      },
+      {
+       "cm": "60x120",
+       "in": "24x48",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 7200
+      },
+      {
+       "cm": "30x60",
+       "in": "12x24",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 1800
+      },
+      {
+       "cm": "60x60",
+       "in": "24x24",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 3600
+      }
+     ]
+    }
+   ],
+   "specs": [
+    {
+     "label": "R9"
+    },
+    {
+     "label": "V2"
+    }
+   ],
+   "downloads": [
+    {
+     "title": "Richiedi informazioni",
+     "type": ""
+    },
+    {
+     "title": "Store locator",
+     "type": "",
+     "url": "https://mirage.it/store-locator"
+    },
+    {
+     "title": "Catalogo Clay",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/59bad278-cc11-433b-9114-7a72433d050e/9pkhty/fil/catalogo-clay-pdf.pdf"
+    },
+    {
+     "title": "Scheda tecnica",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/1d24de37-d27a-4c9d-a74e-48cfe12aadb9/9pkhty/fil/scheda-tecnica-clay-pdf.pdf"
+    },
+    {
+     "title": "Capitolato",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/d393c1cf-2a6c-42f8-a626-a70919fb39f0/9pkhty/fil/capitolato-clay-pdf.pdf"
+    },
+    {
+     "title": "Sistema di posa",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/625ca3cd-af7c-4348-beba-894832ac0dd5/9pkhty/fil/sistema-di-posa-clay-pdf.pdf"
+    }
+   ],
+   "images": {
+    "minimal": {
+     "origin_id": "51a0bb77-a061-4233-a21e-19c3d6ed612a",
+     "cdn": "thron",
+     "alt": "CLAY CL05 VERVE",
+     "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/51a0bb77-a061-4233-a21e-19c3d6ed612a/9pkhty/std/800x533/51a0bb77-a061-4233-a21e-19c3d6ed612a?scalemode=centered&format=auto&quality=auto-medium"
+    },
+    "ambient": {
+     "origin_id": "4b4c6d48-dff7-4ac6-8a56-f00bc421b4f8",
+     "cdn": "thron",
+     "alt": "CLAY CL05 120x278 Still life",
+     "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/4b4c6d48-dff7-4ac6-8a56-f00bc421b4f8/9pkhty/std/800x533/4b4c6d48-dff7-4ac6-8a56-f00bc421b4f8?scalemode=centered&format=auto&quality=auto-medium"
+    }
+   }
+  },
+  {
+   "slug": "clay-cl06",
+   "title": "Clay CL06 Shy",
+   "collection": "Collezione Clay",
+   "indoor": true,
+   "outdoor": false,
+   "finishes": [
+    {
+     "name": "Spazzolato",
+     "formats": [
+      {
+       "cm": "120x120",
+       "in": "48x48",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 14400
+      },
+      {
+       "cm": "80x80",
+       "in": "31,5x31,5",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 6400
+      },
+      {
+       "cm": "40x80",
+       "in": "15,7x31,5",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 3200
+      },
+      {
+       "cm": "60x120",
+       "in": "24x48",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 7200
+      },
+      {
+       "cm": "30x60",
+       "in": "12x24",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 1800
+      },
+      {
+       "cm": "60x60",
+       "in": "24x24",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 3600
+      }
+     ]
+    }
+   ],
+   "specs": [
+    {
+     "label": "R9"
+    },
+    {
+     "label": "V2"
+    }
+   ],
+   "downloads": [
+    {
+     "title": "Richiedi informazioni",
+     "type": ""
+    },
+    {
+     "title": "Store locator",
+     "type": "",
+     "url": "https://mirage.it/store-locator"
+    },
+    {
+     "title": "Catalogo Clay",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/59bad278-cc11-433b-9114-7a72433d050e/9pkhty/fil/catalogo-clay-pdf.pdf"
+    },
+    {
+     "title": "Scheda tecnica",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/1d24de37-d27a-4c9d-a74e-48cfe12aadb9/9pkhty/fil/scheda-tecnica-clay-pdf.pdf"
+    },
+    {
+     "title": "Capitolato",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/d393c1cf-2a6c-42f8-a626-a70919fb39f0/9pkhty/fil/capitolato-clay-pdf.pdf"
+    },
+    {
+     "title": "Sistema di posa",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/625ca3cd-af7c-4348-beba-894832ac0dd5/9pkhty/fil/sistema-di-posa-clay-pdf.pdf"
+    }
+   ],
+   "images": {
+    "minimal": {
+     "origin_id": "cd213ae7-2ca2-4a74-8616-7e75d94cabc5",
+     "cdn": "thron",
+     "alt": "CLAY CL06 SHY",
+     "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/cd213ae7-2ca2-4a74-8616-7e75d94cabc5/9pkhty/std/800x533/cd213ae7-2ca2-4a74-8616-7e75d94cabc5?scalemode=centered&format=auto&quality=auto-medium"
+    },
+    "ambient": {
+     "origin_id": "5c0b50d6-2969-42e1-bef0-a516f7cd5b0b",
+     "cdn": "thron",
+     "alt": "CLAY CL06 120x278 Still life",
+     "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/5c0b50d6-2969-42e1-bef0-a516f7cd5b0b/9pkhty/std/800x533/5c0b50d6-2969-42e1-bef0-a516f7cd5b0b?scalemode=centered&format=auto&quality=auto-medium"
+    }
+   }
+  },
+  {
+   "slug": "clay-cl07",
+   "title": "Clay CL07 Trust",
+   "collection": "Collezione Clay",
+   "indoor": true,
+   "outdoor": false,
+   "finishes": [
+    {
+     "name": "Spazzolato",
+     "formats": [
+      {
+       "cm": "120x120",
+       "in": "48x48",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 14400
+      },
+      {
+       "cm": "80x80",
+       "in": "31,5x31,5",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 6400
+      },
+      {
+       "cm": "40x80",
+       "in": "15,7x31,5",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 3200
+      },
+      {
+       "cm": "60x120",
+       "in": "24x48",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 7200
+      },
+      {
+       "cm": "30x60",
+       "in": "12x24",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 1800
+      },
+      {
+       "cm": "60x60",
+       "in": "24x24",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 3600
+      }
+     ]
+    }
+   ],
+   "specs": [
+    {
+     "label": "R9"
+    },
+    {
+     "label": "V2"
+    }
+   ],
+   "downloads": [
+    {
+     "title": "Richiedi informazioni",
+     "type": ""
+    },
+    {
+     "title": "Store locator",
+     "type": "",
+     "url": "https://mirage.it/store-locator"
+    },
+    {
+     "title": "Catalogo Clay",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/59bad278-cc11-433b-9114-7a72433d050e/9pkhty/fil/catalogo-clay-pdf.pdf"
+    },
+    {
+     "title": "Scheda tecnica",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/1d24de37-d27a-4c9d-a74e-48cfe12aadb9/9pkhty/fil/scheda-tecnica-clay-pdf.pdf"
+    },
+    {
+     "title": "Capitolato",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/d393c1cf-2a6c-42f8-a626-a70919fb39f0/9pkhty/fil/capitolato-clay-pdf.pdf"
+    },
+    {
+     "title": "Sistema di posa",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/625ca3cd-af7c-4348-beba-894832ac0dd5/9pkhty/fil/sistema-di-posa-clay-pdf.pdf"
+    }
+   ],
+   "images": {
+    "minimal": {
+     "origin_id": "fbe4bb60-c52f-4331-9f09-328f04d1d8e8",
+     "cdn": "thron",
+     "alt": "CLAY CL07 TRUST",
+     "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/fbe4bb60-c52f-4331-9f09-328f04d1d8e8/9pkhty/std/800x533/fbe4bb60-c52f-4331-9f09-328f04d1d8e8?scalemode=centered&format=auto&quality=auto-medium"
+    },
+    "ambient": {
+     "origin_id": "319d0fe0-cc99-458f-a72e-93cf8a51effc",
+     "cdn": "thron",
+     "alt": "CLAY CL07 120x278 Still life",
+     "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/319d0fe0-cc99-458f-a72e-93cf8a51effc/9pkhty/std/800x533/319d0fe0-cc99-458f-a72e-93cf8a51effc?scalemode=centered&format=auto&quality=auto-medium"
+    }
+   }
+  },
+  {
+   "slug": "clay-cl08",
+   "title": "Clay CL08 Karma",
+   "collection": "Collezione Clay",
+   "indoor": true,
+   "outdoor": false,
+   "finishes": [
+    {
+     "name": "Spazzolato",
+     "formats": [
+      {
+       "cm": "60x120",
+       "in": "24x48",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 7200
+      },
+      {
+       "cm": "40x80",
+       "in": "15,7x31,5",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 3200
+      }
+     ]
+    }
+   ],
+   "specs": [
+    {
+     "label": "R9"
+    },
+    {
+     "label": "V2"
+    }
+   ],
+   "downloads": [
+    {
+     "title": "Richiedi informazioni",
+     "type": ""
+    },
+    {
+     "title": "Store locator",
+     "type": "",
+     "url": "https://mirage.it/store-locator"
+    },
+    {
+     "title": "Catalogo Clay",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/59bad278-cc11-433b-9114-7a72433d050e/9pkhty/fil/catalogo-clay-pdf.pdf"
+    },
+    {
+     "title": "Scheda tecnica",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/1d24de37-d27a-4c9d-a74e-48cfe12aadb9/9pkhty/fil/scheda-tecnica-clay-pdf.pdf"
+    },
+    {
+     "title": "Capitolato",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/d393c1cf-2a6c-42f8-a626-a70919fb39f0/9pkhty/fil/capitolato-clay-pdf.pdf"
+    },
+    {
+     "title": "Sistema di posa",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/625ca3cd-af7c-4348-beba-894832ac0dd5/9pkhty/fil/sistema-di-posa-clay-pdf.pdf"
+    }
+   ],
+   "images": {
+    "minimal": {
+     "origin_id": "2f1608bf-59e7-4add-a906-140e3bb04ad4",
+     "cdn": "thron",
+     "alt": "CLAY CL08 KARMA",
+     "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/2f1608bf-59e7-4add-a906-140e3bb04ad4/9pkhty/std/800x533/2f1608bf-59e7-4add-a906-140e3bb04ad4?scalemode=centered&format=auto&quality=auto-medium"
+    },
+    "ambient": {
+     "origin_id": "1db879dd-7408-4bf3-904d-a11ac8d9ffac",
+     "cdn": "thron",
+     "alt": "CLAY CL03 CL08 120x278 Still life",
+     "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/1db879dd-7408-4bf3-904d-a11ac8d9ffac/9pkhty/std/800x533/1db879dd-7408-4bf3-904d-a11ac8d9ffac?scalemode=centered&format=auto&quality=auto-medium"
+    }
+   }
+  },
+  {
+   "slug": "clay-cl09",
+   "title": "Clay CL09 Glee",
+   "collection": "Collezione Clay",
+   "indoor": true,
+   "outdoor": false,
+   "finishes": [
+    {
+     "name": "Spazzolato",
+     "formats": [
+      {
+       "cm": "60x120",
+       "in": "24x48",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 7200
+      },
+      {
+       "cm": "40x80",
+       "in": "15,7x31,5",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 3200
+      }
+     ]
+    }
+   ],
+   "specs": [
+    {
+     "label": "R9"
+    },
+    {
+     "label": "V2"
+    }
+   ],
+   "downloads": [
+    {
+     "title": "Richiedi informazioni",
+     "type": ""
+    },
+    {
+     "title": "Store locator",
+     "type": "",
+     "url": "https://mirage.it/store-locator"
+    },
+    {
+     "title": "Catalogo Clay",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/59bad278-cc11-433b-9114-7a72433d050e/9pkhty/fil/catalogo-clay-pdf.pdf"
+    },
+    {
+     "title": "Scheda tecnica",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/1d24de37-d27a-4c9d-a74e-48cfe12aadb9/9pkhty/fil/scheda-tecnica-clay-pdf.pdf"
+    },
+    {
+     "title": "Capitolato",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/d393c1cf-2a6c-42f8-a626-a70919fb39f0/9pkhty/fil/capitolato-clay-pdf.pdf"
+    },
+    {
+     "title": "Sistema di posa",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/625ca3cd-af7c-4348-beba-894832ac0dd5/9pkhty/fil/sistema-di-posa-clay-pdf.pdf"
+    }
+   ],
+   "images": {
+    "minimal": {
+     "origin_id": "c6ca033c-fd7d-42b4-8279-371cead083a1",
+     "cdn": "thron",
+     "alt": "CLAY CL09 GLEE",
+     "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/c6ca033c-fd7d-42b4-8279-371cead083a1/9pkhty/std/800x533/c6ca033c-fd7d-42b4-8279-371cead083a1?scalemode=centered&format=auto&quality=auto-medium"
+    },
+    "ambient": {
+     "origin_id": "e0f0f75e-f688-40c8-b691-1f472d36117b",
+     "cdn": "thron",
+     "alt": "CLAY CL09 120x278 Still life",
+     "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/e0f0f75e-f688-40c8-b691-1f472d36117b/9pkhty/std/800x533/e0f0f75e-f688-40c8-b691-1f472d36117b?scalemode=centered&format=auto&quality=auto-medium"
+    }
+   }
+  },
+  {
+   "slug": "clay-cl10",
+   "title": "Clay CL10 Grace",
+   "collection": "Collezione Clay",
+   "indoor": true,
+   "outdoor": false,
+   "finishes": [
+    {
+     "name": "Spazzolato",
+     "formats": [
+      {
+       "cm": "60x120",
+       "in": "24x48",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 7200
+      },
+      {
+       "cm": "40x80",
+       "in": "15,7x31,5",
+       "thickness_mm": [
+        "9"
+       ],
+       "size_cm2": 3200
+      }
+     ]
+    }
+   ],
+   "specs": [
+    {
+     "label": "R9"
+    },
+    {
+     "label": "V2"
+    }
+   ],
+   "downloads": [
+    {
+     "title": "Richiedi informazioni",
+     "type": ""
+    },
+    {
+     "title": "Store locator",
+     "type": "",
+     "url": "https://mirage.it/store-locator"
+    },
+    {
+     "title": "Catalogo Clay",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/59bad278-cc11-433b-9114-7a72433d050e/9pkhty/fil/catalogo-clay-pdf.pdf"
+    },
+    {
+     "title": "Scheda tecnica",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/1d24de37-d27a-4c9d-a74e-48cfe12aadb9/9pkhty/fil/scheda-tecnica-clay-pdf.pdf"
+    },
+    {
+     "title": "Capitolato",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/d393c1cf-2a6c-42f8-a626-a70919fb39f0/9pkhty/fil/capitolato-clay-pdf.pdf"
+    },
+    {
+     "title": "Sistema di posa",
+     "type": "document",
+     "url": "https://mirage-cdn.thron.com/delivery/public/content/mirage/625ca3cd-af7c-4348-beba-894832ac0dd5/9pkhty/fil/sistema-di-posa-clay-pdf.pdf"
+    }
+   ],
+   "images": {
+    "minimal": {
+     "origin_id": "5f6cab3e-c8bc-44d7-abd6-bc997401dc70",
+     "cdn": "thron",
+     "alt": "CLAY CL10 GRACE",
+     "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/5f6cab3e-c8bc-44d7-abd6-bc997401dc70/9pkhty/std/800x533/5f6cab3e-c8bc-44d7-abd6-bc997401dc70?scalemode=centered&format=auto&quality=auto-medium"
+    },
+    "ambient": {
+     "origin_id": "bd9135c4-fc94-4367-aacc-e4ac8e956e1f",
+     "cdn": "thron",
+     "alt": "CLAY CL10 40x80 JP03 Living",
+     "url": "https://mirage-cdn.thron.com/delivery/public/image/mirage/bd9135c4-fc94-4367-aacc-e4ac8e956e1f/9pkhty/std/800x533/bd9135c4-fc94-4367-aacc-e4ac8e956e1f?scalemode=centered&format=auto&quality=auto-medium"
+    }
+   }
+  }
+ ]
+}
