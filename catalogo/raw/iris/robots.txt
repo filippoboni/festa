@@ -1,0 +1,13 @@
+User-Agent: *
+Disallow: /soluzioni*?*
+Disallow: /html/*
+Disallow: /assets_al27102021/*
+Disallow: /assets_ver2/*
+Disallow: /old/*
+Disallow: /vt/*
+#Sitemap: https://www.irisceramica.it/sitemap_it.xml
+#Sitemap: https://www.irisceramica.com/sitemap_en.xml
+#Sitemap: https://www.irisceramica.biz/sitemap_fr.xml
+#Sitemap: https://www.irisceramica.net/sitemap_de.xml
+#Sitemap: https://www.irisceramica.es/sitemap_es.xml
+HTTP 200
